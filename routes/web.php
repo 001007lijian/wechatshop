@@ -16,9 +16,9 @@
 //});
 
 Route::get('/','IndexController@index');
-Route::get('login','Index\IndexController@login');
-Route::get('wxre','Index\IndexController@wxre');
-Route::get('imag','Index\IndexController@imag');
-Route::get('wx','Index\IndexController@wx');
-Route::get('index/login','Index\IndexController@loginlist');
-Route::post('index/logins','Index\IndexController@logins');
+Route::get('login','IndexController@login');
+Route::get('wxre','IndexController@wxre');
+Route::get('imag','IndexController@imag');
+Route::get('wx','IndexController@wx');
+Route::get('index/login','IndexController@loginlist');
+Route::post('index/logins','IndexController@logins');
